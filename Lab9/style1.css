@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header,
+footer {
+    height: 100px;
+    background-color: #9370db;
+    font-size: 38px;
+    font-family: 'Press Start 2P', cursive;
+}
